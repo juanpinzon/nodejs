@@ -1,9 +1,9 @@
-heroku buildpacks:set heroku/nodejs{
+{
   "name": "gumball_v4",
   "description": "Simple Test Form",
   "main": "app.js",
   "engines": {
-    "node": "4.7.0"
+    "node": "4.1.1"
   },
   "private": true,
   "scripts": {
